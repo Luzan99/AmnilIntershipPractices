@@ -42,3 +42,13 @@ console.log(testToday.toDateString());
 
 //Extracting year
 console.log(testToday.getFullYear());
+
+/* Arrow Function */
+const output = (a) => a * a;
+console.log(output(5));
+
+/* Comparison between Normal and Arrow */
+function result(b) {
+  return b * b;
+}
+console.log(result(6));
