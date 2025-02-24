@@ -4,7 +4,7 @@
 let fruits = ["apple", "banana", "cherry", "dragon", "berry"];
 
 // join (convert array to string)
-let joined = fruits.join(" "); // "hello world"
+let joined = fruits.join(" ");
 console.log(joined);
 
 // toString (convert array to string (comma-separated))
