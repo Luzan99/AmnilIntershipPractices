@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cart Management System</h1>
+
+      <div class="buttons">
+        <button onclick="getAllCarts()">Get All Carts</button>
+        <button onclick="getCartById(1)">Get Cart by ID</button>
+      </div>
+
+      <h2>Cart Details</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cart ID</th>
+            <th>User ID</th>
+            <th>Products</th>
+            <th>Total Price</th>
+          </tr>
+        </thead>
+        <tbody id="cart-table-body">
+          <tr>
+            <td colspan="4">No data available</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
