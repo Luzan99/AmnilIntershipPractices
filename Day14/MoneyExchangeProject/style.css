@@ -10,9 +10,9 @@ body {
 
 /* Header */
 header {
-  background-color: #007bff;
+  background: linear-gradient(to right, #16c41f, #0098c2);
   color: white;
-  padding: 15px;
+  padding: 2px;
   font-size: 24px;
 }
 
@@ -68,8 +68,8 @@ select {
 }
 
 /* Convert Button */
-.convertBtn {
-  background-color: #007bff;
+#convertBtn {
+  background: linear-gradient(to right, #ff512f, #dd2476);
   color: white;
   border: none;
   cursor: pointer;
@@ -77,12 +77,12 @@ select {
   transition: 0.3s;
 }
 
-.convertBtn:hover {
+#convertBtn:hover {
   background-color: #0056b3;
 }
 
 /* Result */
-.result {
+#result {
   font-size: 18px;
   font-weight: bold;
   color: #007bff;
@@ -91,6 +91,11 @@ select {
 
 /* Footer */
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
   margin-top: 20px;
   padding: 10px;
   font-size: 14px;
