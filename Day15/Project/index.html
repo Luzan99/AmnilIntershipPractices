@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container-->
+    <div class="container">
+      <header>
+        <h1>Weather App</h1>
+        <p>Get real-time weather information based on your city</p>
+      </header>
+      <!-- Scrtion for input and button -->
+      <section class="weather-input">
+        <h2>Enter City</h2>
+        <input
+          type="text"
+          id="city"
+          placeholder="Enter city name"
+          aria-label="City Name"
+        />
+        <button id="get-weather-btn" onclick="getWeather()">Get Weather</button>
+      </section>
+      <!-- Section for displaying the weather information -->
+      <section id="weather-info" class="hidden"></section>
+    </div>
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

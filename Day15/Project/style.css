@@ -1,0 +1,89 @@
+/* General reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main container styling*/
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(5, 250, 148, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Header section */
+header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+header p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Input and button styling */
+.weather-input {
+  margin: 20px 0;
+}
+
+.weather-input input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.weather-input button {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-input button:hover {
+  background-color: #2980b9;
+}
+
+/* Weather information section */
+.hidden {
+  display: none;
+}
+
+#weather-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#weather-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
