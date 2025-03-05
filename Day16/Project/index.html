@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BMI Calculator</h1>
+    </header>
+
+    <main>
+      <section class="calculator">
+        <form id="bmiForm">
+          <div class="input-group">
+            <label for="weight">Weight (kg):</label>
+            <input
+              type="number"
+              id="weight"
+              placeholder="Enter your weight"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="heightFeet">Height (feet):</label>
+            <input
+              type="number"
+              id="heightFeet"
+              placeholder="Enter feet"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="heightInches">Height (inches):</label>
+            <input
+              type="number"
+              id="heightInches"
+              placeholder="Enter inches"
+              required
+            />
+          </div>
+          <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+        </form>
+        <div id="result"></div>
+        <div id="error-message"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 BMI Calculator. @Luzan Maharjan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
