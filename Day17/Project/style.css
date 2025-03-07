@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  color: rgb(0, 0, 0);
+}
