@@ -25,8 +25,15 @@ const API5 =
 function fetchAllData() {
   output.innerText = "Fetching data...";
 
-  const usersAPI = fetch(API1).then((res) => res.json());
-  const postsAPI = fetch(API2).then((res) => res.json());
+  const usersAPI = fetch(API1).then((res) => {
+    if (!res.ok) throw new Error(`API1 failed: ${res.statusText}`);
+    return res.json();
+  });
+
+  const postsAPI = fetch(API2).then((res) => {
+    if (!res.ok) throw new Error(`API2 failed: ${res.statusText}`);
+    return res.json();
+  });
 
   Promise.all([usersAPI, postsAPI])
     .then(([users, posts]) => {
