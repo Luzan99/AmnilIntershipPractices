@@ -9,6 +9,11 @@
       "id": "bc74",
       "email": "luzanmaharjan@gmail.com",
       "password": "0706"
+    },
+    {
+      "id": null,
+      "email": "luzan@gmail.com",
+      "password": "0706"
     }
   ]
 }
